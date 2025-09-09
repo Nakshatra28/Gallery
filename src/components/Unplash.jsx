@@ -9,7 +9,7 @@ const Unplash = () => {
 axios.get(`https://api.unsplash.com/search/photos?page=1&query=${search}`, {
     headers: {
       Authorization:
-      "Client-ID aDuGrIwYKgYQt51O098GyddKii3x-JTNoC5qp5OnlZU"
+     "use you api id"
     },
   })
   .then(function (response) {
